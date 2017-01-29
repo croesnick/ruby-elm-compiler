@@ -68,7 +68,7 @@ Elm::Compiler.compile(["Clock.elm", "Counter.elm"], output_path: "elm.js")
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/fbonetti/elm-compiler.
+Bug reports and pull requests are welcome on GitHub at https://github.com/croesnick/elm-compiler.
 
 
 ## License
