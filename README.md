@@ -1,6 +1,6 @@
 # elm-compiler
 
-[![Build Status](https://travis-ci.org/fbonetti/ruby-elm-compiler.svg?branch=master)](https://travis-ci.org/fbonetti/ruby-elm-compiler)
+[![Build Status](https://travis-ci.org/croesnick/ruby-elm-compiler.svg?branch=master)](https://travis-ci.org/croesnick/ruby-elm-compiler)
 
 Ruby wrapper for the [Elm language compiler](https://github.com/elm-lang/elm-compiler).
 
