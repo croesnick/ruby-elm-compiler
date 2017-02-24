@@ -6,7 +6,7 @@ module Elm
       def with_project_copy(*elm_files, &block)
         raise NameCollisionError unless file_names_uniq?(elm_files)
 
-        src_dirs = elm_files.map { |file| File.dirname(file) }
+        src_dirs = elm_files.map { |file| File.dirname(file) }.uniq
 
         Dir.mktmpdir do |tmp_dir|
           src_dirs.each do |src_dir|
